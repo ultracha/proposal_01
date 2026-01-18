@@ -1,5 +1,6 @@
 # proposal_01
 
+```mermaid
 sequenceDiagram
     participant Sensor as 현장 센서 (Data)
     participant Engine as 추론 엔진 (Inference)
@@ -19,7 +20,8 @@ sequenceDiagram
     end
     
     Engine->>Engine: 7. 성능 향상 (정확도 95% 도달)
-
+```
+```mermaid
 graph LR
     subgraph "1. Multi-Modal Input"
         A1[Vision<br>Camera/CCTV]
@@ -48,3 +50,4 @@ graph LR
     B4 --> C1
     B4 --> C2
     B4 --> C3
+```
